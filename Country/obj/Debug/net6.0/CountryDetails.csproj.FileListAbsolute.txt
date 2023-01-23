@@ -1,0 +1,15 @@
+C:\Users\Home\source\repos\Country\Country\bin\Debug\net6.0\CountryDetails.exe
+C:\Users\Home\source\repos\Country\Country\bin\Debug\net6.0\CountryDetails.deps.json
+C:\Users\Home\source\repos\Country\Country\bin\Debug\net6.0\CountryDetails.runtimeconfig.json
+C:\Users\Home\source\repos\Country\Country\bin\Debug\net6.0\CountryDetails.dll
+C:\Users\Home\source\repos\Country\Country\bin\Debug\net6.0\CountryDetails.pdb
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\CountryDetails.csproj.AssemblyReference.cache
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\CountryDetails.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\CountryDetails.AssemblyInfoInputs.cache
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\CountryDetails.AssemblyInfo.cs
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\CountryDetails.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\CountryDetails.dll
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\refint\CountryDetails.dll
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\CountryDetails.pdb
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\CountryDetails.genruntimeconfig.cache
+C:\Users\Home\source\repos\Country\Country\obj\Debug\net6.0\ref\CountryDetails.dll

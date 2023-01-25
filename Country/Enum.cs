@@ -15,5 +15,4 @@ namespace CountryDetails
             SuperPoor,
             Unknown
     }
-    
 }

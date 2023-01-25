@@ -17,7 +17,5 @@ namespace CountryDetails
             Population= population;
             IsCapital = isCapital;
         }
-    
-
     }
 }

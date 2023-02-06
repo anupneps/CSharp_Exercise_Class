@@ -26,7 +26,7 @@ namespace CountryDetails
             CapitalCity = capital;
             GDP = gdp;
             Languages = new List<Language>();
-            Cities = new City[20];
+            Cities = new City[0];
             NeighbouringCountries = new List<Country>();
             counter = 0;
         }
@@ -48,10 +48,18 @@ namespace CountryDetails
             }
         }
 
-        public City this[Index index]
+        public City this[int index]
         {
             get => Cities[index];
-            set => Cities[index] = value;
+            set
+            {
+                if (Convert.ToInt32(index) > Cities.Length)
+                {
+                    throw new Exception($"Last Index is  +{Cities.Length}");
+                }
+                var newCityArr = new City[] { value };
+                Cities = Cities.Concat(newCityArr).ToArray();
+            }
         }
         public City[] this[Range range]
         {
@@ -91,13 +99,7 @@ namespace CountryDetails
             Languages.Add(language);
             return true;
         }
-        public bool AddCities(City cities)
-        {
-            //Cities.AddRange(cities); return true;
-            Cities[counter] = cities;
-            counter++;
-            return true;
-        }
+        
         public bool AddNeighbouringCountry(Country country)
         {
             if (NeighbouringCountries.Contains(country)) { return false; }

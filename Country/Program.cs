@@ -38,7 +38,7 @@ class Program
         Finland[1] = new City("Tampere", 341696, false);
         Finland[2] = new City("Lahti", 119469, false);
         Finland[3] = new City("Porvo", 50610, false);
-        Finland[^1] = new City("Kemi", 26176, false);
+        Finland[4] = new City("Kemi", 26176, false);
 
         //Finland.PrintCities();
         var wealthiness = Finland.CheckWealth();
